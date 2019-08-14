@@ -27,7 +27,9 @@ GEM
     liquid (2.3.0)
     maruku (0.6.1)
       syntax (>= 1.0.0)
-    nokogiri (1.5.5)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.4)
+      mini_portile2 (~> 2.4.0)
     pdfkit (0.5.2)
     posix-spawn (0.3.6)
     puma (1.6.3)
@@ -63,7 +65,7 @@ DEPENDENCIES
   haml (~> 3.1.6)
   jekyll (~> 0.11.2)
   liquid (~> 2.3.0)
-  nokogiri
+  nokogiri (>= 1.10.4)
   pdfkit
   puma
   rack (~> 1.4.1)
@@ -77,3 +79,6 @@ DEPENDENCIES
   sinatra-subdomain
   stringex (~> 1.4.0)
   wkhtmltopdf-binary
+
+BUNDLED WITH
+   1.17.3
