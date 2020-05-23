@@ -20,5 +20,5 @@ gem 'liquid', '~> 2.3.0'
 
 gem 'sinatra', '~> 1.3.2'
 gem 'sinatra-subdomain'
-gem 'puma'
+gem 'puma', '>= 3.12.6'
 gem 'redis'
