@@ -2,7 +2,7 @@ source "http://rubygems.org"
 ruby "1.9.3"
 
 gem 'redcarpet', '1.17.2'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.11.4'
 gem 'pdfkit'
 gem 'rack-jekyll'
 
